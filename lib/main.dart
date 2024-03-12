@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:proyecto_moviles/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,14 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'La pasadita de Celaya',
-      home: Scaffold(
+      home: WelcomeScreen()/*Scaffold(
         body: Center(
           child: Text(
             'Demo page',
             style: GoogleFonts.jost(fontSize: 22),
           ),
         ),
-      ),
+      ),*/
     );
   }
 }
