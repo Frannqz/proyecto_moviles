@@ -15,14 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'La pasadita de Celaya',
-      home: WelcomeScreen()/*Scaffold(
-        body: Center(
-          child: Text(
-            'Demo page',
-            style: GoogleFonts.jost(fontSize: 22),
-          ),
-        ),
-      ),*/
+      home: WelcomeScreen()
     );
   }
 }
