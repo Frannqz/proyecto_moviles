@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'La pasadita de Celaya',
-      home: WelcomeScreen()
+      home: WelcomeScreen(),
     );
   }
 }
