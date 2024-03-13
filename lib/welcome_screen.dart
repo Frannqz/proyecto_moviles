@@ -103,7 +103,6 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                         Expanded(
                           child: Container(
-                            margin: const EdgeInsets.only(bottom: 10),
                             child: Text(
                               ' registrarse con ',
                               textAlign: TextAlign.center,
@@ -135,6 +134,101 @@ class WelcomeScreen extends StatelessWidget {
                           ),
                         ),
                       ],
+                    ),
+                    // BTN´s SIGNUP REDES SOCIALES
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 23.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          InkWell(
+                            onTap: () {},
+                            child: Container(
+                              width: 139.26,
+                              height: 54,
+                              decoration: ShapeDecoration(
+                                color: Colors.white,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(27.41),
+                                ),
+                                shadows: const [
+                                  BoxShadow(
+                                    color: Color(0x3FD3D1D8),
+                                    blurRadius: 35.75,
+                                    offset: Offset(17.87, 17.87),
+                                    spreadRadius: 0,
+                                  )
+                                ],
+                              ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Image.asset(
+                                    'images/assets/facebook.png',
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  Text(
+                                    'FACEBOOK',
+                                    style: GoogleFonts.jost(
+                                      textStyle: const TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.w500,
+                                        letterSpacing: 0.65,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          InkWell(
+                            onTap: () {},
+                            child: Container(
+                              width: 139.26,
+                              height: 54,
+                              decoration: ShapeDecoration(
+                                color: Colors.white,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(27.41),
+                                ),
+                                shadows: const [
+                                  BoxShadow(
+                                    color: Color(0x3FD3D1D8),
+                                    blurRadius: 35.75,
+                                    offset: Offset(17.87, 17.87),
+                                    spreadRadius: 0,
+                                  )
+                                ],
+                              ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Image.asset(
+                                    'images/assets/google.png',
+                                  ),
+                                  const SizedBox(
+                                    width: 10,
+                                  ),
+                                  Text(
+                                    'GOOGLE',
+                                    style: GoogleFonts.jost(
+                                      textStyle: const TextStyle(
+                                        color: Colors.black,
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.w500,
+                                        letterSpacing: 0.65,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                     // BTN EMPEZAR CON EMAIL O TELEFONO
                     InkWell(
